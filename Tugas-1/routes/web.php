@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/tabel', function () {
+    return view('tabel');
+});
+
+Route::get('/tabel2', function () {
+    return view('tabel2');
+});
